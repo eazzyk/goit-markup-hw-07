@@ -22,14 +22,14 @@
 
   color: var(--background-white-color);
   background-color: var(--accent-color);
-}
 
-.hero__btn:hover,
-.hero__btn:focus {
-  text-shadow: 0px 4px 4px var(--shadow-color);
-  box-shadow: 0px 4px 4px var(--shadow-color-secondary);
-  border-radius: 4px;
-  transform: scale(1.1);
+  &:hover,
+  &:focus {
+    text-shadow: 0px 4px 4px var(--shadow-color);
+    box-shadow: 0px 4px 4px var(--shadow-color-secondary);
+    border-radius: 4px;
+    transform: scale(1.1);
+  }
 }
 // MODAL-BTN
 .feedback__btn {
@@ -55,14 +55,14 @@
 
   color: var(--background-white-color);
   background-color: var(--accent-color);
-}
 
-.feedback__btn:hover,
-.feedback__btn:focus {
-  text-shadow: 0px 4px 4px var(--shadow-color);
-  box-shadow: 0px 4px 4px var(--shadow-color-secondary);
-  border-radius: 4px;
-  transform: scale(1.05);
+  &:hover,
+  &:focus {
+    text-shadow: 0px 4px 4px var(--shadow-color);
+    box-shadow: 0px 4px 4px var(--shadow-color-secondary);
+    border-radius: 4px;
+    transform: scale(1.05);
+  }
 }
 // CLOSE BTN
 .feedback__btn--close {
@@ -74,6 +74,7 @@
   right: 6px;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 
   font-family: sans-serif;
   font-size: 24px;
@@ -85,11 +86,12 @@
 
   color: var(--black-color);
   background-color: var(--background-white-color);
-}
-.feedback__btn--close:hover {
-  cursor: pointer;
-  box-shadow: 0px 4px 4px var(--shadow-color);
-  color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px var(--shadow-color);
+    color: var(--accent-color);
+  }
 }
 .feedback__close--icon {
   fill: currentColor;
@@ -119,13 +121,14 @@
   transition: transform, text-shadow, box-shadow, border, var(--transition-animation);
   color: var(--background-white-color);
   background-color: var(--accent-color);
-}
-.footer__form--btn:hover,
-.footer__form--btn:focus {
-  text-shadow: 0px 4px 4px var(--shadow-color);
-  box-shadow: 0px 4px 4px var(--shadow-color);
-  border-radius: 4px;
-  transform: scale(1.01);
+
+  &:hover,
+  &:focus {
+    text-shadow: 0px 4px 4px var(--shadow-color);
+    box-shadow: 0px 4px 4px var(--shadow-color);
+    border-radius: 4px;
+    transform: scale(1.01);
+  }
 }
 .footer__btn--icon {
   fill: currentColor;

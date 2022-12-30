@@ -10,15 +10,16 @@
   padding-bottom: 25px;
 
   color: var(--black-color);
-}
-.header__logo--2 {
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-decoration: none;
 
-  color: var(--accent-color);
+  & .header__logo--2 {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: var(--accent-color);
+  }
 }
 // LOGO-FOOTER
 .footer__logo--1 {
@@ -29,12 +30,13 @@
   text-decoration: none;
 
   color: var(--background-white-color);
-}
-.footer__logo--2 {
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--accent-color);
+
+  & .footer__logo--2 {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--accent-color);
+  }
 }

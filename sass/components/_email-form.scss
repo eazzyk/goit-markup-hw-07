@@ -1,4 +1,7 @@
 // EMAIL
+.footer__form--box {
+  margin-left: auto;
+}
 .footer__form {
   display: flex;
   margin-top: 20px;
@@ -16,15 +19,13 @@
   transition: transform, text-shadow, box-shadow, border, var(--transition-animation);
   background-color: var(--box-color);
   color: var(--foot-icon-color);
-}
-.footer__form--input:hover,
-.footer__form--input:focus {
-  border: 1px solid var(--accent-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  transform: scale(1.01);
-  color: var(--foot-icon-color);
-}
-.footer__form--box {
-  margin-left: auto;
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    transform: scale(1.01);
+    color: var(--foot-icon-color);
+  }
 }

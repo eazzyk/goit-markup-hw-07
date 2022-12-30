@@ -1,16 +1,3 @@
-.port__overlay::before {
-  display: inline-block;
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-
-  background-color: var(--overlay-color);
-}
-
 .port__img--box {
   position: relative;
   overflow: hidden;
@@ -29,6 +16,19 @@
   transition: translate, color, background-color, var(--transition-animation);
 
   background-color: var(--port-pic-overlay-color);
+
+  &:before {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+    background-color: var(--overlay-color);
+  }
 }
 .port__overlay--text {
   font-size: 18px;
